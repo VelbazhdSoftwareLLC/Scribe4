@@ -8,14 +8,14 @@
 >
   <include
     layout="@layout/player2_view" />
-  <tyler.breisacher.scribe.UpsideDownTextView
+  <eu.veldsoft.scribe4.UpsideDownTextView
     android:id="@+id/gameMode2"
     android:text="text" 
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_weight="1"
     android:gravity="center" />
-  <tyler.breisacher.scribe.ScribeBoardView
+  <eu.veldsoft.scribe4.ScribeBoardView
     android:id="@+id/scribeBoard"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"

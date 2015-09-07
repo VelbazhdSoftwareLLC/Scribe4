@@ -1,122 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:scribe="http://schemas.android.com/apk/res/tyler.breisacher.scribe"
-  android:layout_width="fill_parent"
-  android:layout_height="fill_parent"
->
-  <LinearLayout
-    android:orientation="vertical"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:scribe="http://schemas.android.com/apk/res/eu.veldsoft.scribe4"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-  >
-    <TextView
-      android:text="@string/rules_intro"
-      android:textSize="16sp"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content" 
-      android:padding="4sp" />
-    <ImageView 
-      android:src="@drawable/rules1" 
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content" />
-    <TextView
-      android:text="@string/rules_basicmoves"
-      android:textSize="16sp"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content" 
-      android:padding="4sp" />
-    <TextView
-      android:text="@string/rules_glyphs"
-      android:textSize="16sp"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:padding="4sp" />
+    android:layout_height="fill_parent" >
 
-    <!-- examples -->
     <LinearLayout
-      android:orientation="horizontal"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content">
-      <tyler.breisacher.scribe.MiniGridView
-        android:id="@+id/rules_mgv1"
-        scribe:miniGrid="@string/rules_glyph_example_1_grid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-      <TextView
-        android:text="@string/rules_glyph_example_1_text" 
-        android:textSize="16sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" />
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:text="@string/rules_intro"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rules1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:text="@string/rules_basicmoves"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:text="@string/rules_glyphs"
+            android:textSize="16sp" />
+
+        <!-- examples -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+             <eu.veldsoft.scribe4.MiniGridView
+                android:id="@+id/rules_mgv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                scribe:miniGrid="@string/rules_glyph_example_1_grid" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rules_glyph_example_1_text"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rules_glyph_example_2_text"
+                android:textSize="16sp" />
+
+             <eu.veldsoft.scribe4.MiniGridView
+                android:id="@+id/rules_mgv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                scribe:miniGrid="@string/rules_glyph_example_2_grid" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+             <eu.veldsoft.scribe4.MiniGridView
+                android:id="@+id/rules_mgv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                scribe:miniGrid="@string/rules_glyph_example_3_grid" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rules_glyph_example_3_text"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rules_glyph_example_4_text"
+                android:textSize="16sp" />
+
+             <eu.veldsoft.scribe4.MiniGridView
+                android:id="@+id/rules_mgv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                scribe:miniGrid="@string/rules_glyph_example_4_grid" />
+
+        </LinearLayout>
+        <!-- end of examples -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:text="@string/rules_object_1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:text="@string/rules_object_2"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rules_copyright"
+            android:textSize="12sp" />
     </LinearLayout>
-    <LinearLayout
-      android:orientation="horizontal"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content">
-      <TextView
-        android:text="@string/rules_glyph_example_2_text" 
-        android:textSize="16sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" />
-      <tyler.breisacher.scribe.MiniGridView
-        android:id="@+id/rules_mgv2"
-        scribe:miniGrid="@string/rules_glyph_example_2_grid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-      android:orientation="horizontal"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content">
-      <tyler.breisacher.scribe.MiniGridView
-        android:id="@+id/rules_mgv3"
-        scribe:miniGrid="@string/rules_glyph_example_3_grid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-      <TextView
-        android:text="@string/rules_glyph_example_3_text"
-        android:textSize="16sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" />
-    </LinearLayout>
-    <LinearLayout
-      android:orientation="horizontal"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content">
-      <TextView
-        android:text="@string/rules_glyph_example_4_text"
-        android:textSize="16sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" />
-      <tyler.breisacher.scribe.MiniGridView
-        android:id="@+id/rules_mgv4"
-        scribe:miniGrid="@string/rules_glyph_example_4_grid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    </LinearLayout>
-    <!-- end of examples -->
-    
-    <TextView
-      android:text="@string/rules_object_1"
-      android:textSize="16sp"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content" 
-      android:padding="4sp" />
-    <TextView
-      android:text="@string/rules_object_2"
-      android:textSize="16sp"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content" 
-      android:padding="4sp" />
-    <TextView
-      android:text="@string/rules_copyright"
-      android:textSize="12sp"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content" />
-  </LinearLayout>
+
 </ScrollView>
-
