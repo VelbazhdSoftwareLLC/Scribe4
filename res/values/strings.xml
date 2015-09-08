@@ -94,5 +94,7 @@ Blue doesn\'t have any glyph at all, so Red wins the mini grid.</string>
 winning mini grids.</string>
     <string name="rules_copyright">Original rules copyright \u00a9 by Mark Steere, 
 October 2006. Modified slightly for the Android version.</string>
+    <string name="title_activity_splash">Scribe4</string>
+    <string name="redirect_activity_is_missing_message">Redirect activity is missing!</string>
 
 </resources>
