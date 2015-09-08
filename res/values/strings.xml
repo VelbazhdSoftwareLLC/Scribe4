@@ -5,6 +5,8 @@
     <string name="app_description">The abstract game Scribe, designed by Mark Steere</string>
     <string name="red">Red</string>
     <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="purple">Purple</string>
     <string name="empty">{empty}</string>
     <string name="msg_illegal_move">You cannot play in that mini-grid at this time</string>
     <string name="current_player">Current Player: </string>

@@ -1,55 +1,82 @@
 package eu.veldsoft.scribe4.model;
 
+import eu.veldsoft.scribe4.Util;
+
 /**
  * 
  * @author
  */
 public enum ScribeMark {
-  PURPLE('P'), GREEN('G'), BLUE('B'), RED('R'), EMPTY('-');
+	PURPLE('P'), GREEN('G'), BLUE('B'), RED('R'), EMPTY('-');
 
-  private final char ch;
+	private final char ch;
 
-  ScribeMark(char ch) {
-    this.ch = ch;
-  }
+	private String name = "";
 
-  public char toChar() {
-    return ch;
-  }
+	private ScribeMark(char ch) {
+		this.ch = ch;
+	}
 
-  public static ScribeMark fromChar(char ch) {
-    if (ch == PURPLE.ch)
-      return PURPLE;
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    if (ch == GREEN.ch)
-      return GREEN;
+	public String scribeMarkName() {
+		return name;
+	}
 
-    if (ch == BLUE.ch)
-      return BLUE;
+	public static ScribeMark getRandomMark() {
+		switch (Util.PRNG.nextInt(4)) {
+		case 0:
+			return ScribeMark.RED;
+		case 1:
+			return ScribeMark.BLUE;
+		case 2:
+			return ScribeMark.GREEN;
+		case 3:
+			return ScribeMark.PURPLE;
+		}
 
-    if (ch == RED.ch)
-      return RED;
+		return null;
+	}
 
-    return EMPTY;
-  }
+	public char toChar() {
+		return ch;
+	}
 
-  /**
-   * The "other" player
-   */
-  public ScribeMark other() {
-    switch (this) {
-    case RED:
-      return BLUE;
-    case BLUE:
-      return GREEN;
-    case GREEN:
-      return PURPLE;
-    case PURPLE:
-      return RED;
-    case EMPTY:
-      return EMPTY;
-    default:
-      return EMPTY;
-    }
-  }
+	static ScribeMark fromChar(char ch) {
+		if (ch == PURPLE.ch)
+			return PURPLE;
+
+		if (ch == GREEN.ch)
+			return GREEN;
+
+		if (ch == BLUE.ch)
+			return BLUE;
+
+		if (ch == RED.ch)
+			return RED;
+
+		return EMPTY;
+	}
+
+	/**
+	 * The "other" player
+	 */
+	public ScribeMark other() {
+		switch (this) {
+		case RED:
+			return BLUE;
+		case BLUE:
+			return GREEN;
+		case GREEN:
+			return PURPLE;
+		case PURPLE:
+			return RED;
+		case EMPTY:
+			return EMPTY;
+		default:
+			return EMPTY;
+		}
+	}
 }

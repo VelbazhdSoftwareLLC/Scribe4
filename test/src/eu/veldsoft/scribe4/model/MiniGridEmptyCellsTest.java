@@ -9,34 +9,33 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import eu.veldsoft.scribe4.model.MiniGrid;
-
 @RunWith(Parameterized.class)
 public class MiniGridEmptyCellsTest {
 
-  private String miniGridString;
-  private int numEmptyCells;
-  private MiniGrid miniGrid;
+	private String miniGridString;
+	private int numEmptyCells;
+	private MiniGrid miniGrid;
 
-  public MiniGridEmptyCellsTest(String miniGridString, int numEmptyCells) {
-    this.miniGridString = miniGridString;
-    this.numEmptyCells = numEmptyCells;
+	public MiniGridEmptyCellsTest(String miniGridString, int numEmptyCells) {
+		this.miniGridString = miniGridString;
+		this.numEmptyCells = numEmptyCells;
 
-    this.miniGrid = MiniGrid.fromString(miniGridString);
-  }
+		this.miniGrid = MiniGrid.fromString(miniGridString);
+	}
 
-  @Parameters
-  public static Collection<Object[]> parameters() {
-    return Arrays.asList(new Object[][] { { "+++ O++ OO+", 0 },
-        { "+++ --- OOO", 3 }, { "+-+ --- OOO", 4 }, { "+O+ --- OO-", 4 },
-        { "+++ --- --O", 5 }, { "--- --- ---", 9 }, { "-+- +-+ -+-", 5 },
+	@Parameters
+	public static Collection<Object[]> parameters() {
+		return Arrays.asList(new Object[][] { { "+++ O++ OO+", 0 },
+				{ "+++ --- OOO", 3 }, { "+-+ --- OOO", 4 },
+				{ "+O+ --- OO-", 4 }, { "+++ --- --O", 5 },
+				{ "--- --- ---", 9 }, { "-+- +-+ -+-", 5 },
 
-    });
-  }
+		});
+	}
 
-  @Test
-  public void numEmptyCells() {
-    Assert.assertEquals('\n' + miniGridString + '\n', numEmptyCells, miniGrid
-        .getEmptyCells().size());
-  }
+	@Test
+	public void numEmptyCells() {
+		Assert.assertEquals('\n' + miniGridString + '\n', numEmptyCells,
+				miniGrid.getEmptyCells().size());
+	}
 }
