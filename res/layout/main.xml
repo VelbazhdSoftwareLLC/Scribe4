@@ -1,34 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:orientation="vertical"
-  android:layout_width="fill_parent"
-  android:layout_height="fill_parent"
-  android:gravity="center"
->
-  <include
-    layout="@layout/player2_view" />
-  <eu.veldsoft.scribe4.UpsideDownTextView
-    android:id="@+id/gameMode2"
-    android:text="text" 
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:gravity="center" />
-  <eu.veldsoft.scribe4.ScribeBoardView
-    android:id="@+id/scribeBoard"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:gravity="center" />
-  <TextView
-    android:id="@+id/gameMode1" 
-    android:text="text" 
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:gravity="center" />
-  <include
-    layout="@layout/player1_view" />
-</LinearLayout>
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
 
+    <!-- <include layout="@layout/player2_view" /> -->
+    <!--
+    <eu.veldsoft.scribe4.UpsideDownTextView
+        android:id="@+id/gameMode2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="" />
+    -->
+
+    <eu.veldsoft.scribe4.ScribeBoardView
+        android:id="@+id/scribeBoard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/gameMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="" />
+    
+    <include layout="@layout/player_view" />
+    
+    <!--
+    <TextView android:id="@+id/gameMode1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="" />
+    -->
+    <!-- <include layout="@layout/player1_view" /> -->
+
+</LinearLayout>

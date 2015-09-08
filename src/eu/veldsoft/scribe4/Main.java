@@ -11,6 +11,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.text.Html;
 import android.text.TextUtils;
@@ -78,26 +79,10 @@ public class Main extends Activity implements View.OnClickListener,
 	}
 
 	private void updatePlayerViews(ScribeMark currentPlayer) {
-		switch (currentPlayer) {
-		case RED:
-			((TextView) findViewById(R.id.player1_text))
-					.setText(R.string.its_your_turn);
-			findViewById(R.id.player1_cell).setEnabled(true);
-			((TextView) findViewById(R.id.player2_text))
-					.setText(R.string.its_not_your_turn);
-			findViewById(R.id.player2_cell).setEnabled(false);
-			break;
-		case BLUE:
-			((TextView) findViewById(R.id.player1_text))
-					.setText(R.string.its_not_your_turn);
-			findViewById(R.id.player1_cell).setEnabled(false);
-			((TextView) findViewById(R.id.player2_text))
-					.setText(aiMode ? R.string.thinking
-							: R.string.its_your_turn);
-			findViewById(R.id.player2_cell).setEnabled(true);
-			break;
-		// TODO Consider two more players.
-		}
+		((CellView)findViewById(R.id.player_cell)).setMark(currentPlayer);
+		((TextView) findViewById(R.id.player_text))
+				.setText(R.string.its_your_turn);
+		findViewById(R.id.player_cell).setEnabled(true);
 	}
 
 	@Override
@@ -287,13 +272,13 @@ public class Main extends Activity implements View.OnClickListener,
 		if (this.scribeBoard != scribeBoard) {
 			return;
 		}
-		
+
 		updatePlayerViews(currentPlayer);
-		
-		if(aiMode == false) {
+
+		if (aiMode == false) {
 			return;
 		}
-		
+
 		if (currentPlayer == ScribeMark.BLUE) {
 			scribeBoardView.setEnabled(false);
 			aiPlayer1.move();
@@ -346,7 +331,6 @@ public class Main extends Activity implements View.OnClickListener,
 
 		eu.veldsoft.scribe4.model.Settings.setGameMode(mode);
 		String text = "Game mode: " + gameModeEntries[index];
-		((TextView) findViewById(R.id.gameMode1)).setText(text);
-		((TextView) findViewById(R.id.gameMode2)).setText(text);
+		((TextView) findViewById(R.id.gameMode)).setText(text);
 	}
 }

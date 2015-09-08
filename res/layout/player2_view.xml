@@ -7,14 +7,14 @@
     android:gravity="center"
     android:orientation="horizontal" >
 
-         <eu.veldsoft.scribe4.UpsideDownTextView
+    <eu.veldsoft.scribe4.UpsideDownTextView
         android:id="@+id/player2_text"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
         android:gravity="center"
         android:text="@string/its_not_your_turn" />
 
-     <eu.veldsoft.scribe4.CellView
+    <eu.veldsoft.scribe4.CellView
         android:id="@+id/player2_cell"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
