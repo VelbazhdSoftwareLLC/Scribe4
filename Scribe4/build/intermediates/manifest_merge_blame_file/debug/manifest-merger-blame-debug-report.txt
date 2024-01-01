@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="eu.veldsoft.scribe4"
+4    android:installLocation="auto"
+5    android:versionCode="2"
+6    android:versionName="1.01" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="25"
+10        android:targetSdkVersion="33" />
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:8:5-42:19
+15        android:debuggable="true"
+16        android:description="@string/app_description"
+16-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:9:9-54
+17        android:extractNativeLibs="false"
+18        android:icon="@drawable/icon"
+18-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:10:9-38
+19        android:label="@string/app_name"
+19-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:11:9-41
+20        android:testOnly="true"
+21        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+21-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:12:9-67
+22        <activity
+22-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:13:9-16:61
+23            android:name="eu.veldsoft.scribe4.Main"
+23-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:14:13-33
+24            android:label="@string/app_name"
+24-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:15:13-45
+25            android:screenOrientation="portrait" />
+25-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:16:13-49
+26        <activity
+26-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:17:9-19:52
+27            android:name="eu.veldsoft.scribe4.GlyphActivity"
+27-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:18:13-42
+28            android:screenOrientation="portrait" />
+28-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:19:13-49
+29        <activity
+29-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:20:9-22:52
+30            android:name="eu.veldsoft.scribe4.RulesActivity"
+30-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:21:13-42
+31            android:screenOrientation="portrait" />
+31-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:22:13-49
+32        <activity android:name="eu.veldsoft.scribe4.ScribePreferences" />
+32-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:23:9-55
+32-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:23:19-52
+33        <activity
+33-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:24:9-41:20
+34            android:name="eu.veldsoft.scribe4.SplashActivity"
+34-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:25:13-43
+35            android:exported="true"
+35-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:28:13-36
+36            android:label="@string/title_activity_splash"
+36-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:26:13-58
+37            android:noHistory="true" >
+37-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:27:13-37
+38            <meta-data
+38-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:29:13-31:40
+39                android:name="timeout"
+39-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:30:17-39
+40                android:value="5000" />
+40-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:31:17-37
+41            <meta-data
+41-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:32:13-34:60
+42                android:name="redirect"
+42-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:33:17-40
+43                android:value="eu.veldsoft.scribe4.Main" />
+43-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:34:17-57
+44
+45            <intent-filter>
+45-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:36:13-40:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:37:17-69
+46-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:37:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:39:17-77
+48-->C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:39:27-74
+49            </intent-filter>
+50        </activity>
+51    </application>
+52
+53</manifest>

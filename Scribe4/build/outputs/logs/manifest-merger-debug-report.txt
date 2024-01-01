@@ -1,0 +1,98 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:4:5-35
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:8:5-42:19
+INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:8:5-42:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml
+	android:label
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:10:9-38
+	android:description
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:9:9-54
+	android:theme
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:12:9-67
+activity#eu.veldsoft.scribe4.Main
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:13:9-16:61
+	android:screenOrientation
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:16:13-49
+	android:label
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:15:13-45
+	android:name
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:14:13-33
+activity#eu.veldsoft.scribe4.GlyphActivity
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:17:9-19:52
+	android:screenOrientation
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:19:13-49
+	android:name
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:18:13-42
+activity#eu.veldsoft.scribe4.RulesActivity
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:20:9-22:52
+	android:screenOrientation
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:22:13-49
+	android:name
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:21:13-42
+activity#eu.veldsoft.scribe4.ScribePreferences
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:23:9-55
+	android:name
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:23:19-52
+activity#eu.veldsoft.scribe4.SplashActivity
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:24:9-41:20
+	android:label
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:26:13-58
+	android:noHistory
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:27:13-37
+	android:exported
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:25:13-43
+meta-data#timeout
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:29:13-31:40
+	android:value
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:31:17-37
+	android:name
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:30:17-39
+meta-data#redirect
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:32:13-34:60
+	android:value
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:34:17-57
+	android:name
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:33:17-40
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml:39:27-74
+uses-sdk
+INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Todor Balabanov\Desktop\Scribe4\Scribe4\src\main\AndroidManifest.xml

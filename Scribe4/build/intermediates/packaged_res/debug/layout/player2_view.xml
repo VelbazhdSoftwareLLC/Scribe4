@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:scribe="http://schemas.android.com/apk/res/eu.veldsoft.scribe4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <eu.veldsoft.scribe4.UpsideDownTextView
+        android:id="@+id/player2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/its_not_your_turn" />
+
+    <eu.veldsoft.scribe4.CellView
+        android:id="@+id/player2_cell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        scribe:mark="2" />
+
+</LinearLayout>

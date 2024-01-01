@@ -1,0 +1,80 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Users\Todor Balabanov\Desktop\Scribe4
+              -                         
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* LICENSE
+* PRIVACY.md
+* README.md
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* .\ => Scribe4\src\main\java\
+* .classpath => Scribe4\src\main\resources\classpath
+* .gitignore => Scribe4\src\main\resources\gitignore
+* .project => Scribe4\src\main\resources\project
+* .settings\org.eclipse.jdt.core.prefs => Scribe4\src\main\resources\settings\org.eclipse.jdt.core.prefs
+* .settings\org.eclipse.jdt.ui.prefs => Scribe4\src\main\resources\settings\org.eclipse.jdt.ui.prefs
+* AndroidManifest.xml => Scribe4\src\main\resources\AndroidManifest.xml
+* assets\banner.html => Scribe4\src\main\resources\assets\banner.html
+* LICENSE => Scribe4\src\main\resources\LICENSE
+* PRIVACY.md => Scribe4\src\main\resources\PRIVACY.md
+* project.properties => Scribe4\src\main\resources\project.properties
+* README.md => Scribe4\src\main\resources\README.md
+* res\drawable-hdpi\ic_menu_star.png => Scribe4\src\main\resources\res\drawable-hdpi\ic_menu_star.png
+* res\drawable-hdpi\rules1.png => Scribe4\src\main\resources\res\drawable-hdpi\rules1.png
+* res\drawable-ldpi\icon.png => Scribe4\src\main\resources\res\drawable-ldpi\icon.png
+* res\drawable-ldpi\rules1.png => Scribe4\src\main\resources\res\drawable-ldpi\rules1.png
+* res\drawable\ic_menu_star.png => Scribe4\src\main\resources\res\drawable\ic_menu_star.png
+* res\drawable\rules1.png => Scribe4\src\main\resources\res\drawable\rules1.png
+* res\layout\about.xml => Scribe4\src\main\resources\res\layout\about.xml
+* res\layout\activity_splash.xml => Scribe4\src\main\resources\res\layout\activity_splash.xml
+* res\layout\glyph_activity.xml => Scribe4\src\main\resources\res\layout\glyph_activity.xml
+* res\layout\glyph_item.xml => Scribe4\src\main\resources\res\layout\glyph_item.xml
+* res\layout\main.xml => Scribe4\src\main\resources\res\layout\main.xml
+* res\layout\player1_view.xml => Scribe4\src\main\resources\res\layout\player1_view.xml
+* res\layout\player2_view.xml => Scribe4\src\main\resources\res\layout\player2_view.xml
+* res\layout\player_view.xml => Scribe4\src\main\resources\res\layout\player_view.xml
+* res\layout\rules.xml => Scribe4\src\main\resources\res\layout\rules.xml
+* res\menu\options.xml => Scribe4\src\main\resources\res\menu\options.xml
+* res\values\attrs.xml => Scribe4\src\main\resources\res\values\attrs.xml
+* res\values\config.xml => Scribe4\src\main\resources\res\values\config.xml
+* res\values\strings.xml => Scribe4\src\main\resources\res\values\strings.xml
+* res\xml\prefs.xml => Scribe4\src\main\resources\res\xml\prefs.xml
+* AndroidManifest.xml => Scribe4\src\main\AndroidManifest.xml
+* assets\ => Scribe4\src\main\assets\
+* res\ => Scribe4\src\main\res\
+* src\ => Scribe4\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gameModeEntries">
+        <item>Majority</item>
+        <item>Super Glyph</item>
+    </string-array>
+    <string-array name="gameModeEntryValues">
+        <item>majority</item>
+        <item>superglyph</item>
+    </string-array>
+    <bool name="log_all_moves">false</bool>
+    <string name="about">About</string>
+    <string name="about_dialog_text">    &lt;b>%1$s %2$s&lt;/b>&lt;br />&lt;br />
+    Game Design: &lt;a href="http://www.marksteeregames.com">Mark Steere&lt;/a>&lt;br />&lt;br />
+    Android app by: &lt;a href="market://search?q=pub:%%22Tyler%%20Breisacher%%22">Tyler Breisacher&lt;/a>&lt;br />&lt;br />
+    Inspired by: &lt;a href="http://superdupergames.org">Super Duper Games&lt;/a>&lt;br />&lt;br />
+    Feature requests? Bug reports? &lt;a href="http://github.com/MatrixFrog/scribedroid/issues">Click here&lt;/a></string>
+    <string name="app_description">The abstract game Scribe, designed by Mark Steere</string>
+    <string name="app_name">Scribe4</string>
+    <string name="back">Back</string>
+    <string name="blue">Blue</string>
+    <string name="current_player">Current Player: </string>
+    <string name="defaultGameMode">Majority</string>
+    <string name="defaultGameModeValue">majority</string>
+    <string name="empty">{empty}</string>
+    <string name="exit_scribe">Exit Scribe</string>
+    <string name="gameMode">gameMode</string>
+    <string name="glyphs">Glyphs</string>
+    <string name="green">Green</string>
+    <string name="its_not_your_turn">Wait for opponent</string>
+    <string name="its_your_turn">It\'s your turn!</string>
+    <string name="majoritySummary">Majority: Whoever wins the majority of the nine mini grids wins overall.</string>
+    <string name="make_move">make your move.</string>
+    <string name="market">Rate/Comment</string>
+    <string name="msg_confirm_exit">Are you sure you want to exit Scribe?</string>
+    <string name="msg_confirm_new_game">What type of game would you like to play?</string>
+    <string name="msg_illegal_move">You cannot play in that mini-grid at this time</string>
+    <string name="new_game">New Game</string>
+    <string name="preferences">Preferences</string>
+    <string name="purple">Purple</string>
+    <string name="red">Red</string>
+    <string name="redirect_activity_is_missing_message">Redirect activity is missing!</string>
+    <string name="rules">Rules</string>
+    <string name="rules_basicmoves">The two players take turns marking squares, one 
+square per turn, until the entire super grid is filled. Players are not allowed 
+to pass on their turn. On your first turn, you can claim any square on the super 
+grid. The mini grid of your last move is treated as a map. The square you last 
+claimed (marked with a small white dot) points to the mini grid in which you must 
+make your next move. For example, in this screenshot, Red\'s last move was in the 
+upper-right corner of a mini grid, so Red must now play in the upper-right mini 
+grid. If your last move points to a completely filled mini grid, you can make 
+your next move anywhere in the super grid.</string>
+    <string name="rules_copyright">Original rules copyright \u00a9 by Mark Steere, 
+October 2006. Modified slightly for the Android version.</string>
+    <string name="rules_glyph_example_1_grid">+O+ O+O OO+</string>
+    <string name="rules_glyph_example_1_text">Blue has four Singles and Red has two 
+Singles. With a score of 4-2, Blue is the winner.</string>
+    <string name="rules_glyph_example_2_grid">++O O+O O+O</string>
+    <string name="rules_glyph_example_2_text">Blue has a Pipe (4 points) and Red has
+a Double and a Triple (5 points). Red is the winner.</string>
+    <string name="rules_glyph_example_3_grid">++O +++ ++O</string>
+    <string name="rules_glyph_example_3_text">Blue has the House glyph, which is worth
+7 points. Red has two Singles for 2 points. Blue wins.</string>
+    <string name="rules_glyph_example_4_grid">OOO ++O +++</string>
+    <string name="rules_glyph_example_4_text">Red has the Pipe glyph, for 4 points. 
+Blue doesn\'t have any glyph at all, so Red wins the mini grid.</string>
+    <string name="rules_glyphs">Press \"menu\" to see the 19 glyphs of Scribe. Each 
+glyph is worth the number of dots that compose it. For example the J is worth 
+six points. A glyph also represents its own mirror image and rotations. Glyphs 
+appearing as a subset of a larger group don\'t count. When a mini grid is 
+completely filled, the glyph points are tallied and the high score wins.</string>
+    <string name="rules_intro"> Scribe is a pen and paper game for two players. Nine mini grids together form 
+ one super grid. Draws cannot occur in Scribe. Mark Steere invented
+ Scribe on October 1, 2006.</string>
+    <string name="rules_object_1">Majority Version: Whoever wins the majority of the nine mini grids wins overall.</string>
+    <string name="rules_object_2">Superglyph Version: Players form super glyphs on the super grid with their 
+winning mini grids.</string>
+    <string name="superglyphSummary">Super Glyph: Players form super glyphs on the super grid with their winning mini grids.</string>
+    <string name="thinking">Thinking...</string>
+    <string name="title_activity_splash">Scribe4</string>
+    <string name="vs_ai">vs. the AI</string>
+    <string name="vs_friend">vs. a friend</string>
+    <string name="wins">wins! Play again?</string>
+    <string name="wins_mini_grid">wins the mini grid!</string>
+    <declare-styleable name="CellView">
+    <attr format="string" name="mark"/>
+  </declare-styleable>
+    <declare-styleable name="MiniGridView">
+    <attr format="string" name="miniGrid"/>
+  </declare-styleable>
+</resources>
