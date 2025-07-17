@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:gravity="center"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <!-- <include layout="@layout/player2_view" /> -->
     <!--
@@ -30,9 +30,9 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="" />
-    
+
     <include layout="@layout/player_view" />
-    
+
     <!--
     <TextView android:id="@+id/gameMode1"
         android:layout_width="wrap_content"

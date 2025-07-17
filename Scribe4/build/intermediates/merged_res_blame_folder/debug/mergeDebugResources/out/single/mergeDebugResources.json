@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "eu.veldsoft.scribe4.Scribe4-debug-4:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "eu.veldsoft.scribe4.Scribe4-main-6:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\drawable_rules1.png.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\drawable\\rules1.png"
+    },
+    {
+        "merged": "eu.veldsoft.scribe4.Scribe4-debug-4:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "eu.veldsoft.scribe4.Scribe4-main-6:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\layout_main.xml.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\layout_about.xml.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\layout\\about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\layout_player1_view.xml.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\layout\\player1_view.xml"
+    },
+    {
+        "merged": "eu.veldsoft.scribe4.Scribe4-debug-4:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "eu.veldsoft.scribe4.Scribe4-main-6:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\drawable_ic_menu_star.png.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\drawable\\ic_menu_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\xml_prefs.xml.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\xml\\prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\layout_player2_view.xml.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\layout\\player2_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\layout_player_view.xml.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\layout\\player_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\menu_options.xml.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\menu\\options.xml"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\drawable-hdpi_ic_menu_star.png.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\drawable-hdpi\\ic_menu_star.png"
+    },
+    {
+        "merged": "eu.veldsoft.scribe4.Scribe4-debug-4:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "eu.veldsoft.scribe4.Scribe4-main-6:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "eu.veldsoft.scribe4.Scribe4-debug-4:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "eu.veldsoft.scribe4.Scribe4-main-6:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\layout_rules.xml.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\layout\\rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\layout_glyph_activity.xml.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\layout\\glyph_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\drawable-ldpi_rules1.png.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\drawable-ldpi\\rules1.png"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\drawable-ldpi_icon.png.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\layout_glyph_item.xml.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\layout\\glyph_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\drawable-hdpi_rules1.png.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\drawable-hdpi\\rules1.png"
+    },
+    {
+        "merged": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-debug-4:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Todor Balabanov\\.gradle\\daemon\\8.13\\eu.veldsoft.scribe4.Scribe4-main-6:\\layout\\activity_splash.xml"
+    }
+]

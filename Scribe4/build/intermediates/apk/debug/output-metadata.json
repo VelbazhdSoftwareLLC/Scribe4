@@ -16,5 +16,6 @@
       "outputFile": "Scribe4-debug.apk"
     }
   ],
-  "elementType": "File"
+  "elementType": "File",
+  "minSdkVersionForDexing": 25
 }

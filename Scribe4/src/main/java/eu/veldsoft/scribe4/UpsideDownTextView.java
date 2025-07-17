@@ -12,25 +12,25 @@ import android.widget.TextView;
  */
 public class UpsideDownTextView extends TextView {
 
-	public UpsideDownTextView(Context context) {
-		super(context);
-	}
+    public UpsideDownTextView(Context context) {
+        super(context);
+    }
 
-	public UpsideDownTextView(Context context, AttributeSet attrs) {
-		super(context, attrs);
-	}
+    public UpsideDownTextView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
 
-	@Override
-	public void onDraw(Canvas canvas) {
-		canvas.save();
+    @Override
+    public void onDraw(Canvas canvas) {
+        canvas.save();
 
-		float py = this.getHeight() / 2.0f;
-		float px = this.getWidth() / 2.0f;
-		canvas.rotate(180, px, py);
+        float py = this.getHeight() / 2.0f;
+        float px = this.getWidth() / 2.0f;
+        canvas.rotate(180, px, py);
 
-		super.onDraw(canvas);
+        super.onDraw(canvas);
 
-		canvas.restore();
-	}
+        canvas.restore();
+    }
 
 }

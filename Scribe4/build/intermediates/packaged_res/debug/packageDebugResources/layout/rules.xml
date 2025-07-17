@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:scribe="http://schemas.android.com/apk/res/eu.veldsoft.scribe4"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:text="@string/rules_intro"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rules1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:text="@string/rules_basicmoves"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:text="@string/rules_glyphs"
+            android:textSize="16sp" />
+
+        <!-- examples -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+             <eu.veldsoft.scribe4.MiniGridView
+                android:id="@+id/rules_mgv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                scribe:miniGrid="@string/rules_glyph_example_1_grid" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rules_glyph_example_1_text"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rules_glyph_example_2_text"
+                android:textSize="16sp" />
+
+             <eu.veldsoft.scribe4.MiniGridView
+                android:id="@+id/rules_mgv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                scribe:miniGrid="@string/rules_glyph_example_2_grid" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+             <eu.veldsoft.scribe4.MiniGridView
+                android:id="@+id/rules_mgv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                scribe:miniGrid="@string/rules_glyph_example_3_grid" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rules_glyph_example_3_text"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rules_glyph_example_4_text"
+                android:textSize="16sp" />
+
+             <eu.veldsoft.scribe4.MiniGridView
+                android:id="@+id/rules_mgv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                scribe:miniGrid="@string/rules_glyph_example_4_grid" />
+
+        </LinearLayout>
+        <!-- end of examples -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:text="@string/rules_object_1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:text="@string/rules_object_2"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rules_copyright"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</ScrollView>

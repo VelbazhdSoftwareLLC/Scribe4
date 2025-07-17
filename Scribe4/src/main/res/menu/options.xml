@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android"
->
-  <item
-    android:id="@+id/menuitem_glyphs"
-    android:title="@string/glyphs"
-    android:icon="@android:drawable/ic_menu_view" />
-  <item
-    android:id="@+id/menuitem_rules"
-    android:title="@string/rules"
-    android:icon="@android:drawable/ic_menu_directions" />
-  <item
-    android:id="@+id/menuitem_new_game"
-    android:title="@string/new_game"
-    android:icon="@android:drawable/ic_menu_edit" />
-  <item
-    android:id="@+id/menuitem_settings"
-    android:title="@string/preferences"
-    android:icon="@android:drawable/ic_menu_preferences" />
-  <item
-    android:id="@+id/menuitem_about"
-    android:title="@string/about"
-    android:icon="@android:drawable/ic_menu_info_details" />
-  <item
-    android:id="@+id/menuitem_market"
-    android:title="@string/market"
-    android:icon="@drawable/ic_menu_star" />
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuitem_glyphs"
+        android:title="@string/glyphs"
+        android:icon="@android:drawable/ic_menu_view" />
+    <item
+        android:id="@+id/menuitem_rules"
+        android:title="@string/rules"
+        android:icon="@android:drawable/ic_menu_directions" />
+    <item
+        android:id="@+id/menuitem_new_game"
+        android:title="@string/new_game"
+        android:icon="@android:drawable/ic_menu_edit" />
+    <item
+        android:id="@+id/menuitem_settings"
+        android:title="@string/preferences"
+        android:icon="@android:drawable/ic_menu_preferences" />
+    <item
+        android:id="@+id/menuitem_about"
+        android:title="@string/about"
+        android:icon="@android:drawable/ic_menu_info_details" />
+    <item
+        android:id="@+id/menuitem_market"
+        android:title="@string/market"
+        android:icon="@drawable/ic_menu_star" />
 </menu>

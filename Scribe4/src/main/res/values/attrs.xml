@@ -1,8 +1,8 @@
 <resources>
-  <declare-styleable name="CellView">
-    <attr name="mark" format="string"/>
-  </declare-styleable>
-  <declare-styleable name="MiniGridView">
-    <attr name="miniGrid" format="string"/>
-  </declare-styleable>
+    <declare-styleable name="CellView">
+        <attr name="mark" format="string" />
+    </declare-styleable>
+    <declare-styleable name="MiniGridView">
+        <attr name="miniGrid" format="string" />
+    </declare-styleable>
 </resources>
