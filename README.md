@@ -1,5 +1,9 @@
 This is an Android version of the abstract paper-and-pencil game, Scribe, by Mark 
-Steere. Check out [Mark Steere's website](http://www.marksteeregames.com) for other 
+Steere. I haven't touched this project in years, but there appears to be an active
+(as of January 2016) fork of it at https://github.com/TodorBalabanov/Scribe4 so you
+might want to take a look at that.
+
+Check out [Mark Steere's website](http://www.marksteeregames.com) for other 
 implementations, including an actual Scribe board that you can print out. Like, 
 on paper. I know, weird, right?
 
