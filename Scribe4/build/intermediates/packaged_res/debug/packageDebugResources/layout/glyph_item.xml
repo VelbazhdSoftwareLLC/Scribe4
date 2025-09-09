@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="fill_parent"
-  android:layout_height="wrap_content"
->
-  <TextView
-    android:id="@+id/glyph_name"
-    android:text="glyph name"
-    android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
-    android:layout_weight="1"
-    android:gravity="left|center_vertical" />
-  <eu.veldsoft.scribe4.GlyphView
-    android:id="@+id/glyph"
-    android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
-    android:layout_weight="0"
-    android:layout_margin="5dp"
-    android:gravity="right" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/glyph_name"
+        android:text="glyph name"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="left|center_vertical" />
+
+    <eu.veldsoft.scribe4.GlyphView
+        android:id="@+id/glyph"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0"
+        android:layout_margin="5dp"
+        android:gravity="right" />
 </LinearLayout>

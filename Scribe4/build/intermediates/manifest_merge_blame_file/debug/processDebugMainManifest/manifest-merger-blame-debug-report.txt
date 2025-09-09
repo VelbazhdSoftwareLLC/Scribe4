@@ -2,8 +2,8 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="eu.veldsoft.scribe4"
 4    android:installLocation="auto"
-5    android:versionCode="2"
-6    android:versionName="1.01" >
+5    android:versionCode="3"
+6    android:versionName="1.02" >
 7
 8    <uses-sdk
 9        android:minSdkVersion="25"

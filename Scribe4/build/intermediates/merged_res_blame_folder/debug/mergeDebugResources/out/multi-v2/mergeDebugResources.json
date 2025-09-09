@@ -7,10 +7,10 @@
                     "source": "C:\\Users\\Todor Balabanov\\Desktop\\Scribe4\\Scribe4\\src\\main\\res\\values\\config.xml",
                     "from": {
                         "startLines": "2",
-                        "startColumns": "2",
-                        "startOffsets": "55",
-                        "endColumns": "41",
-                        "endOffsets": "94"
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "43",
+                        "endOffsets": "96"
                     },
                     "to": {
                         "startLines": "10",
@@ -43,19 +43,19 @@
                     "source": "C:\\Users\\Todor Balabanov\\Desktop\\Scribe4\\Scribe4\\src\\main\\res\\values\\attrs.xml",
                     "from": {
                         "startLines": "1,4",
-                        "startColumns": "2,2",
-                        "startOffsets": "15,119",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,130",
                         "endLines": "3,6",
-                        "endColumns": "22,22",
-                        "endOffsets": "115,227"
+                        "endColumns": "24,24",
+                        "endOffsets": "124,245"
                     },
                     "to": {
                         "startLines": "84,87",
                         "startColumns": "4,4",
-                        "startOffsets": "5502,5605",
+                        "startOffsets": "5502,5611",
                         "endLines": "86,89",
-                        "endColumns": "22,22",
-                        "endOffsets": "5600,5711"
+                        "endColumns": "24,24",
+                        "endOffsets": "5606,5723"
                     }
                 }
             ]
