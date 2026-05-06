@@ -3,14 +3,14 @@ plugins {
 }
 android {
     namespace "eu.veldsoft.scribe4"
-    compileSdk 34
+    compileSdk 33
 
     defaultConfig {
         applicationId "eu.veldsoft.scribe4"
         minSdk 25
         targetSdk 33
-        versionCode 3
-        versionName "1.02"
+        versionCode 4
+        versionName "1.2.1"
     }
 
     buildTypes {

@@ -1,0 +1,101 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Runs all the tests"
+  lane :test do
+    gradle(task: "test")
+  end
+
+  desc "Build a debug APK"
+  lane :build_debug do
+    gradle(
+      task: "assembleDebug",
+      build_type: "Debug"
+    )
+  end
+
+  desc "Build a release APK"
+  lane :build_release do
+    gradle(
+      task: "assembleRelease",
+      build_type: "Release"
+    )
+  end
+
+  desc "Deploy a new version to the Google Play Store"
+  lane :deploy do
+    gradle(task: "clean assembleRelease")
+    upload_to_play_store(
+      track: "internal",
+      aab: "../Scribe4/build/outputs/bundle/release/Scribe4-release.aab"
+    )
+  end
+
+  desc "Upload a new version to the Google Play Store internal testing track"
+  lane :upload_internal do
+    upload_to_play_store(
+      track: "internal",
+      aab: "../Scribe4/build/outputs/bundle/release/Scribe4-release.aab",
+      release_notes: "Internal testing release"
+    )
+  end
+
+  desc "Upload a new version to the Google Play Store alpha track"
+  lane :upload_alpha do
+    upload_to_play_store(
+      track: "alpha",
+      aab: "../Scribe4/build/outputs/bundle/release/Scribe4-release.aab",
+      release_notes: "Alpha testing release"
+    )
+  end
+
+  desc "Upload a new version to the Google Play Store beta track"
+  lane :upload_beta do
+    upload_to_play_store(
+      track: "beta",
+      aab: "../Scribe4/build/outputs/bundle/release/Scribe4-release.aab",
+      release_notes: "Beta testing release"
+    )
+  end
+
+  desc "Upload a new version to the Google Play Store production track"
+  lane :upload_production do
+    upload_to_play_store(
+      track: "production",
+      aab: "../Scribe4/build/outputs/bundle/release/Scribe4-release.aab",
+      release_notes: "Production release"
+    )
+  end
+
+  desc "Increment version code"
+  lane :increment_version do
+    increment_version_code(
+      gradle_file_path: "../Scribe4/build.gradle"
+    )
+  end
+
+  desc "Clean build directory"
+  lane :clean do
+    gradle(task: "clean")
+  end
+
+  # Error block
+  error do |lane, exception|
+    UI.error("Lane #{lane} failed with exception: #{exception}")
+  end
+end

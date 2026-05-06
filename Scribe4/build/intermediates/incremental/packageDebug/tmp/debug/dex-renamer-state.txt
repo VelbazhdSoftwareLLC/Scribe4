@@ -1,13 +1,16 @@
-#Tue Sep 09 15:02:12 EEST 2025
+#Wed May 06 19:01:48 EEST 2026
 base.0=C\:\\Users\\Todor Balabanov\\Desktop\\Scribe4\\Scribe4\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.1=C\:\\Users\\Todor Balabanov\\Desktop\\Scribe4\\Scribe4\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
 base.2=C\:\\Users\\Todor Balabanov\\Desktop\\Scribe4\\Scribe4\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
 base.3=C\:\\Users\\Todor Balabanov\\Desktop\\Scribe4\\Scribe4\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.4=C\:\\Users\\Todor Balabanov\\Desktop\\Scribe4\\Scribe4\\build\\intermediates\\global_synthetics_dex\\debug\\generateDebugGlobalSynthetics\\classes.dex
 path.0=0/classes.dex
 path.1=11/classes.dex
 path.2=3/classes.dex
 path.3=9/classes.dex
+path.4=classes.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
 renamed.3=classes4.dex
+renamed.4=classes5.dex

@@ -1,0 +1,11 @@
+This is an Android version of the abstract paper-and-pencil game, Scribe, by Mark Steere. I haven't touched this project in years, but there appears to be an active (as of January 2016) fork of it at https://github.com/TodorBalabanov/Scribe4 so you might want to take a look at that.
+
+Check out Mark Steere's website for other implementations, including an actual Scribe board that you can print out. Like, on paper. I know, weird, right?
+
+This app is available in the Android Market
+
+The icon is from DeviantArt user sekkyumu.
+
+Thanks to Stack Overflow members AaronM and RaveDave for the UpsideDownTextView and to Aaron Dalton's SuperDuperGames which is where I first discovered the game.
+
+Please feel free to fork, hack, submit bugs and suggestions, all that good stuff.
